@@ -13,7 +13,7 @@ void pali(int n)
         cout << t1 << " " << t2;
         for (int i = 2; i <= n; i++)
         {
-            cout << " " << t1 + t2;
+            cout << "    " << t1 + t2;
             temp = t1 + t2;
             t1 = t2;
             t2 = temp;
